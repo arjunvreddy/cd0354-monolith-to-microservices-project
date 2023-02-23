@@ -44,3 +44,6 @@ venv/
 # Local environment files
 *set_env.sh
 *set_env.ps1
+aws-secret.yaml
+env-secret.yaml
+env-configmap.yaml

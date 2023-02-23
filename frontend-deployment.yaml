@@ -17,5 +17,3 @@ spec:
       containers:
       - name: udagram-frontend
         image: arjunvreddy/udagram-frontend
-        ports:
-        - containerPort: 8100

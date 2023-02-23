@@ -17,5 +17,3 @@ spec:
       containers:
       - name: reverseproxy
         image: arjunvreddy/reverseproxy
-        ports:
-        - containerPort: 8080
