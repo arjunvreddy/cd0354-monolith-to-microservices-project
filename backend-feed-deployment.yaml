@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: udagram-api-feed
   labels:
     service: udagram-api-feed
+  name: udagram-api-feed
 spec:
   replicas: 1
   selector:
@@ -15,8 +15,8 @@ spec:
         service: udagram-api-feed
     spec:
       containers:
-      - name: udagram-api-feed
-        image: arjunvreddy/udagram-api-feed
+      - image: arjunvreddy/udagram-api-feed
+        name: udagram-api-feed
         imagePullPolicy: Always
         resources:
           requests:
@@ -24,8 +24,8 @@ spec:
             cpu: "250m"
           limits:
             memory: "1024Mi"
-            cpu: "500m"
-      env:
+            cpu: "500m"                  
+        env:
         - name: URL
           valueFrom:
             configMapKeyRef:
