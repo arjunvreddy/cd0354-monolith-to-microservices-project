@@ -47,3 +47,6 @@ venv/
 aws-secret.yaml
 env-secret.yaml
 env-configmap.yaml
+describepods.txt
+kubectl_services.txt
+pod_output.txt
