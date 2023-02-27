@@ -17,3 +17,6 @@ spec:
       containers:
       - name: reverseproxy
         image: arjunvreddy/reverseproxy
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
