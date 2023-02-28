@@ -1,0 +1,11 @@
+# This file is used for convenience of local development.
+# DO NOT STORE YOUR CREDENTIALS INTO GIT
+$env:POSTGRES_USERNAME='[POSTGRES_USERNAME]'
+$env:POSTGRES_PASSWORD='[POSTGRES_PASSWORD]'
+$env:POSTGRES_HOST='[POSTGRES_HOST_AWS]'
+$env:POSTGRES_DB='[POSTGRES_DB_NAME]'
+$env:AWS_BUCKET='[AWS_S3_BUCKET_NAME]'
+$env:AWS_REGION='us-east-1'
+$env:AWS_PROFILE='default'
+$env:JWT_SECRET='[JWT_SECRET]'
+$env:URL='http://localhost:8100'

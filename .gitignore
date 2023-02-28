@@ -42,11 +42,8 @@ venv/
 !.elasticbeanstalk/*.global.yml
 
 # Local environment files
-*set_env.sh
-*set_env.ps1
-aws-secret.yaml
-env-secret.yaml
-env-configmap.yaml
-describepods.txt
-kubectl_services.txt
-pod_output.txt
+#*set_env.sh
+#*set_env.ps1
+#aws-secret.yaml
+#env-secret.yaml
+#env-configmap.yaml
